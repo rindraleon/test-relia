@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <title>js-console-tetris</title>
+    <meta charset="utf-8" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-variant: normal;
+        line-height: normal;
+        background: #fcf6f5;
+        color: #0a0a0a;
+      }
+
+      .wrapper {
+        width: auto;
+        max-width: 720px;
+        margin: 0 auto;
+      }
+
+      main {
+        padding: 12px 0;
+      }
+
+      section {
+        padding: 0 0 12px 0;
+      }
+
+      h1 {
+        font-size: 28px;
+        margin: 0 0 20px 0;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin: 0 0 16px 0;
+      }
+
+      h3 {
+        font-size: 20px;
+        margin: 0 0 14px 0;
+      }
+
+      p,
+      ol li,
+      ul li {
+        font-size: 16px;
+      }
+
+      ol li,
+      ul li {
+        margin: 0 0 6px 0;
+      }
+
+      p,
+      ol,
+      ul {
+        margin: 0 0 14px 0;
+      }
+
+      small {
+        font-size: 12px;
+        margin: 0 0 8px 0;
+      }
+
+      a,
+      a:visited {
+        color: #990011;
+        text-decoration: underline;
+      }
+
+      a:hover,
+      a:active {
+        color: #5e010b;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><code>Jeu Tetris en mode console</code></h1>
+        <h3>
+          <i
+            >Ce jeu est codé en Javascript et tourne en mode console</i
+          >
+        </h3>
+      </header>
+      <main>
+        <section>
+          <h2>Pour demmarer le jeux</h2>
+          <ol>
+            <li>Ouvrir la console js dans votre navigateur ou appuyer F12.</li>
+            <li>Entrer <code>Tetris.start()</code> Pour demmarer le jeu.</li>
+            <li>Mettre votre pointeur de la souris en dehors du console .</li>
+          </ol>
+        </section>
+        <section>
+          <h2>Pour Jouer</h2>
+          <ul>
+            <li>Utiliser la direction pour le deplacement gauche droite.</li>
+            <li>Utiliser la derection haut pour retourner.</li>
+            <li>Utiliser la direction bas pour sauter vers le bas.</li>
+            <li>Espace pour faire de pause.</li>
+            <li>Entrer <code>Tetris.stop()</code> pour arreter le jeu.</li>
+            <li>Entrer <code>Tetris.restart()</code> pour rejouer le jeux.</li>
+          </ul>
+        </section>
+      </main>
+      
+    </div>
+    <script src="Jeux/index.js" type="module"></script>
+  </body>
+</html>
